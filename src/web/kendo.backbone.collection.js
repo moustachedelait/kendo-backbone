@@ -16,7 +16,7 @@
       },
 
       splice: function(index, howMany) {
-        var itemsToInsert, removedItemx, idx, length;
+        var itemsToInsert, removedItems, idx, length;
 
         itemsToInsert = Array.prototype.slice.call(arguments, 2);
 
